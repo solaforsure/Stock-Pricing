@@ -1,0 +1,30 @@
+[database]
+uri = "sqlite:///data/my_database.db"
+
+[defaults]
+stock_symbol = "AAPL"
+strike_price = 110
+time_to_maturity = 0.5
+risk_free_rate = 0.05
+volatility = 0.25
+steps = 100
+trials = 1000
+
+[paths]
+raw_data = "data/raw/"
+processed_data = "data/processed/"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
